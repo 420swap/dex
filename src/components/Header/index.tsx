@@ -221,11 +221,11 @@ export default function Header() {
           <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
             Swap
           </StyledNavLink>
-          <StyledNavLink id={`nft-nav-link`} to={'https://420swap.github.io/nft'}>
+          <StyledNavLink   to={'/nft'}>
             NFT's
           </StyledNavLink>
-          <StyledNavLink id={`site-nav-link`} to={'https://420swap.github.io/site'}>
-           Site
+          <StyledNavLink  to={'/site'}>
+            Site
           </StyledNavLink>
         </HeaderLinks>
       </HeaderRow>
